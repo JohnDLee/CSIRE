@@ -1,0 +1,5 @@
+Model,Input,R Squared,Mean Absolute Error,Mean Squared Error
+K Nearest,"['specialty_description', 'nppes_provider_city', 'total_claim_count', 'total_drug_cost', 'total_day_supply', 'total_30_day_fill_count', 'bene_count']",0.5523318163091222,0.0940061829268548,0.01818185552771443
+Lasso Linear,"['specialty_description', 'nppes_provider_city', 'total_claim_count', 'total_drug_cost', 'total_day_supply', 'total_30_day_fill_count']",0.2592100120804192,0.13222825331619786,0.030269513623422305
+Neural Network,"['specialty_description', 'nppes_provider_city', 'total_claim_count', 'total_drug_cost', 'total_day_supply', 'total_30_day_fill_count', 'bene_count']",0.6227138246797814,0.08787576780520029,0.015452070565363778
+Random Forest,"['specialty_description', 'nppes_provider_city', 'total_claim_count', 'total_drug_cost', 'total_day_supply', 'total_30_day_fill_count', 'bene_count']",0.6849166782241718,0.07864997588220628,0.012884749935280505
